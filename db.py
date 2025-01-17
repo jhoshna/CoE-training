@@ -42,3 +42,4 @@ mycursor.execute(" select uname from university where id=121")
 uni = mycursor.fetchall()
 for clg in uni:
     print(clg)
+mydb.commit()
