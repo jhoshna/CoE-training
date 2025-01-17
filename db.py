@@ -42,4 +42,7 @@ mycursor.execute(" select uname from university where id=121")
 uni = mycursor.fetchall()
 for clg in uni:
     print(clg)
+#delete
+mycursor.execute("delete from university where id=121")
+
 mydb.commit()
